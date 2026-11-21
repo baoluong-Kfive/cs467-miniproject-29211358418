@@ -283,9 +283,3 @@ The evaluation script automatically produces two charts saved in the `results/` 
 1. **Vocabulary Limitation of TF-IDF**: Bag-of-words / TF-IDF vectors rely on exact lexical or sub-phrase matches. If a user enters synonyms not present in blurbs (e.g., *"thrilling whodunit"* vs. *"detective mystery"*), similarity may be underestimated. Dense semantic embeddings (such as Sentence-BERT) would enhance conceptual matching.
 2. **Data Sparsity in Collaborative Filtering**: With 14 readers, the co-rated item intersection between any two readers is small, causing CF to occasionally fall back to global/item means. Matrix Factorization (SVD) or neural collaborative filtering would mitigate this on larger datasets.
 3. **Implicit Feedback Integration**: The current system relies on explicit 1–5 ratings. Incorporating implicit interaction signals (clicks, reading time, preview visits) could enrich reader profiles.
-
----
-
-## 9. Academic Integrity Confirmation
-
-This project was developed independently by **Lương Gia Bảo** (Student ID: `29211358418`, Class: CS467A, Duy Tan University) in fulfillment of Assignment 15 — Individual Mini-Project MP-A02. All algorithms, datasets, tests, and documentation adhere to academic integrity standards.
