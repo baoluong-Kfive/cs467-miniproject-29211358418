@@ -1,0 +1,205 @@
+user_id,item_id,rating,reader_note
+U01,B001,5,Loved the feudal Japan detective atmosphere and clever temple clues.
+U01,B002,5,Great 1930s Shanghai detective mystery with sharp pacing.
+U01,B004,4,Strong Qing court mystery and smart deduction.
+U01,B021,5,Joseon era setting and detective investigation hit the mark.
+U01,B037,4,Fun historical mystery trail involving archives and an old seal.
+U01,B006,2,Too much tech jargon for my current reading mood.
+U01,B014,4,Calm and atmospheric reading between mysteries.
+U01,B003,5,Excellent Silk Road mystery with clever cipher puzzle.
+U01,B005,4,Colonial Bombay detective had great gritty atmosphere.
+U01,B022,4,Nice monastery setting with solid historical mystery.
+U01,B033,3,Train mystery decent but less richly historical than my favorites.
+U01,B036,3,Coastal investigation had good suspense though less historical depth.
+U01,B009,2,Fantasy quest not my genre but had an intriguing world.
+U01,B015,3,Coastal family letters were touching if not mystery-focused.
+U02,B006,5,Fascinating AI memory concept and clean sci-fi worldbuilding.
+U02,B007,4,Solid space habitat engineering and survival stakes.
+U02,B017,5,Loved the desert exoplanet mystery and seismic signals.
+U02,B023,4,Engaging orbital survival and star system details.
+U02,B028,4,Fast cyberpunk thriller with crisp action.
+U02,B029,5,Great astronomy and deep space signal mystery.
+U02,B035,4,Clear and accessible quantum computing overview.
+U02,B016,3,Interesting steampunk inventions but preferred harder sci-fi.
+U02,B033,3,Decent thriller but lighter on sci-fi elements.
+U02,B012,4,Ocean science exploration had a scientific rigor I appreciated.
+U02,B036,2,Mystery not really my genre after hard sci-fi.
+U02,B026,2,Engineering history interesting but historical not sci-fi.
+U02,B009,2,Fantasy world interesting but preferred science basis.
+U03,B008,5,Magical floating city and weather spells felt vivid.
+U03,B009,4,Classic fantasy clans and winter quest tone.
+U03,B018,5,Dreamscape cartography was imaginative and memorable.
+U03,B024,4,Nice guild craft and shadow beast tension.
+U03,B030,4,Exciting desert duels and nomad worldbuilding.
+U03,B016,3,Enjoyed the brass inventions though plot moved slowly.
+U03,B028,2,Not my genre but interesting tech world.
+U03,B036,3,Coastal mystery decent though not fantasy enough for me.
+U03,B033,2,Thriller atmosphere too grounded for my fantasy taste.
+U03,B014,3,Literary fiction slice of life pleasant but not fantasy.
+U03,B038,3,Festival stories charming though lacked magical elements.
+U04,B010,5,Clear habit loops and practical focus advice.
+U04,B011,5,Very helpful strategies for deep work and concentration.
+U04,B025,4,Practical note-taking system that fits study routines.
+U04,B031,4,Useful weekly review and environment tips.
+U04,B040,4,Gentle morning habits that keep mornings grounded.
+U04,B019,3,Good decision frameworks though more finance oriented.
+U04,B020,4,Good leadership and team organization strategies.
+U04,B039,3,Some useful patience principles though finance heavy.
+U04,B013,3,Interesting urban design but not directly applicable.
+U04,B012,2,Ocean science interesting but far from my productivity focus.
+U04,B035,3,Quantum computing overview informative though highly technical.
+U04,B026,2,Infrastructure history not relevant to personal productivity.
+U05,B014,5,Warm Tokyo tea house stories felt deeply comforting.
+U05,B015,5,Poignant coastal letters and family reconnection.
+U05,B027,4,Peaceful orchard story with thoughtful reflection.
+U05,B034,5,Heartwarming community garden and everyday kindness.
+U05,B038,4,Lively summer festival stories with strong atmosphere.
+U05,B001,3,Nice historical setting but less emotional slice of life.
+U05,B040,4,Gentle morning rituals felt peaceful and grounding.
+U05,B011,2,Self-help too structured for my reading mood.
+U05,B028,2,Too fast-paced and tech-heavy for my taste.
+U05,B009,3,Fantasy quest had warmth but lacked emotional depth of literary fiction.
+U05,B032,3,Textile history was richly human though academic in tone.
+U05,B013,4,Urban design and community spaces resonated with my literary taste.
+U05,B026,3,Bridge history had interesting human stories within it.
+U06,B012,5,Engaging deep ocean biology and submersible exploration.
+U06,B013,4,Thoughtful look at walkable streets and city design.
+U06,B026,4,Interesting bridge engineering history and spans.
+U06,B032,4,Rich history of trade guilds and textile craft.
+U06,B035,5,Clear explanation of quantum computing and physics.
+U06,B007,3,Good engineering ideas inside a fictional frame.
+U06,B017,4,Interesting geological exploration on exoplanet.
+U06,B029,4,Fascinating pulsar signal and radio astronomy details.
+U06,B036,3,Coastal investigation decent but preferred non-fiction.
+U06,B020,3,Business leadership readable though outside my main interests.
+U06,B023,3,Space exploration fiction with solid science underpinning.
+U06,B010,2,Self-help habits not my current reading focus.
+U06,B028,2,Cyberpunk tech was fast but preferred real-world science.
+U07,B019,5,Sharp perspective on probability risk and decisions.
+U07,B020,4,Practical advice on leading teams and reducing friction.
+U07,B039,5,Valuable lessons on patience and disciplined strategy.
+U07,B010,4,Helpful focus habits that support long-term goals.
+U07,B011,4,Solid mental focus routines for demanding work.
+U07,B026,3,Interesting historical infrastructure context.
+U07,B025,4,Useful note-taking and idea organization framework.
+U07,B031,4,Good habit environment design for professionals.
+U07,B013,3,Interesting city design though not directly business.
+U07,B012,2,Ocean science interesting but not relevant to business goals.
+U07,B040,3,Morning routines pleasant though prefer productivity depth.
+U07,B035,3,Quantum concepts interesting tangent from decision science.
+U07,B032,3,Trade guild history had economic patterns worth noting.
+U08,B002,5,Captivating Shanghai detective story and espionage tension.
+U08,B003,4,Exciting Silk Road detective trail and ancient cipher.
+U08,B005,5,Colonial Bombay detective plot felt gritty and smart.
+U08,B022,4,Intriguing monastery riddle and historical mystery clues.
+U08,B033,4,Tense train mystery with strong winter atmosphere.
+U08,B036,4,Classic coastal investigation and suspenseful clues.
+U08,B001,4,Feudal Japan detective atmosphere was gripping.
+U08,B021,4,Joseon detective story with strong period detail.
+U08,B037,5,Outstanding historical mystery archive investigation.
+U08,B004,4,Qing dynasty court mystery had clever deduction and intrigue.
+U08,B014,3,Literary fiction slice of life pleasant between mysteries.
+U08,B009,2,Fantasy was imaginative but I prefer grounded mystery.
+U08,B012,2,Ocean non-fiction interesting but I prefer mystery narratives.
+U09,B006,4,Cool AI concepts and futuristic network ideas.
+U09,B017,4,Enjoyed exploring the desert planet with geology clues.
+U09,B028,5,Gripping cyberpunk chase and tech thriller pacing.
+U09,B029,4,Intriguing pulsar radio signal mystery.
+U09,B035,4,Accessible science read on quantum ideas.
+U09,B010,2,Not looking for self-help books right now.
+U09,B023,4,Great orbital survival story and binary star setting.
+U09,B016,4,Steampunk tech inventions reminded me of sci-fi gadgets.
+U09,B007,3,Space habitat engineering was interesting if slow.
+U09,B033,3,Thriller decent but not as immersive as my cyberpunk picks.
+U09,B012,3,Ocean science exploration had interesting data elements.
+U09,B036,2,Mystery investigation too slow for my tech thriller pace.
+U09,B019,2,Finance and decision frameworks felt dry compared to tech reads.
+U10,B008,4,Strong magic system and sky city setting.
+U10,B016,5,Loved the clockwork inventions and steampunk city.
+U10,B018,4,Creative dream maps and surreal fantasy elements.
+U10,B024,5,Great guild dynamics and fantasy monster threats.
+U10,B030,3,Solid action though fewer magical details.
+U10,B014,4,Relaxing read between heavier fantasy novels.
+U10,B009,4,Winter quest fantasy with great clan worldbuilding.
+U10,B028,3,Cyberpunk had good pace but preferred pure fantasy.
+U10,B033,3,Winter thriller atmosphere reminded me of dark fantasy.
+U10,B036,2,Mystery too grounded and lacked the magic I enjoy.
+U10,B038,3,Festival stories were warm though lacked fantasy elements.
+U10,B003,2,Historical mystery lacked the magic and world-building I love.
+U11,B014,4,Soothing Tokyo tea shop atmosphere.
+U11,B027,5,Quiet countryside orchard story with gentle pacing.
+U11,B034,4,Sweet neighborhood garden story.
+U11,B038,5,Vibrant festival atmosphere and relatable characters.
+U11,B040,4,Calm morning routine ideas.
+U11,B003,3,Interesting Silk Road setting though lighter on drama.
+U11,B015,5,Moving coastal letters and family story.
+U11,B005,2,Detective mystery not my usual reading taste.
+U11,B032,3,Textile history had human warmth though academic.
+U11,B036,2,Mystery investigation too tense for my cozy reading taste.
+U11,B009,3,Winter fantasy quest had community warmth I appreciated.
+U11,B013,4,Urban neighborhood design resonated with my literary taste.
+U11,B028,1,Cyberpunk was far too gritty and cold for my reading taste.
+U12,B001,4,Enjoyable feudal Japan detective investigation.
+U12,B004,5,Clever Qing dynasty detective mystery and court clues.
+U12,B021,4,Strong Joseon detective feel and historical detail.
+U12,B022,4,Nice historical mystery puzzle in a monastery setting.
+U12,B037,5,Engaging historical mystery involving detective work and archives.
+U12,B012,3,Informative ocean science though not a mystery.
+U12,B002,5,Shanghai detective espionage story was thrilling.
+U12,B005,4,Colonial Bombay detective was vivid and engaging.
+U12,B033,4,Train mystery thriller had good tension.
+U12,B036,4,Coastal lighthouse investigation had great suspense.
+U12,B003,4,Silk Road cipher mystery was intricately plotted.
+U12,B009,2,Fantasy quest lacked the detective procedural I love.
+U12,B020,2,Business strategy not relevant to my mystery reading taste.
+U13,B011,4,Good focus habits for busy study days.
+U13,B019,4,Clear thinking on risk and choices.
+U13,B020,5,Practical team workflow and leadership insights.
+U13,B025,5,Great system for organizing notes and study ideas.
+U13,B031,4,Helpful habit tracking and review structure.
+U13,B039,4,Sound strategic thinking for long-term planning.
+U13,B010,4,Focus and productivity advice aligned with study goals.
+U13,B040,3,Wellness habits decent though prefer productivity angle.
+U13,B026,3,Engineering history context was broadly informative.
+U13,B013,3,Urban design and planning had some planning insights.
+U13,B035,3,Quantum computing overview interesting though outside my domain.
+U13,B012,2,Ocean science interesting but very far from my productivity interests.
+U13,B014,2,Literary fiction too leisurely for my structured reading goals.
+U14,B003,5,Loved the Silk Road setting and detective mystery.
+U14,B005,4,Compelling detective case in colonial Bombay.
+U14,B013,4,Interesting city planning and architecture ideas.
+U14,B026,4,Engaging bridge history and engineering stories.
+U14,B032,5,Fascinating look at historical guilds and textiles.
+U14,B036,4,Solid coastal mystery and investigation clues.
+U14,B022,4,Burmese monastery mystery with clever historical puzzle.
+U14,B012,4,Deep ocean exploration was richly detailed.
+U14,B033,3,Train mystery decent though less historical depth.
+U14,B001,4,Feudal Japan detective story had wonderful period detail.
+U14,B021,4,Joseon royal inspector mystery was atmospheric.
+U14,B037,4,Historical mystery archive investigation was well-plotted.
+U14,B006,2,Sci-fi AI concept interesting but far from my history focus.
+U03,B037,1,Historical detective too far from fantasy for my taste.
+U03,B040,3,Morning wellness rituals had some peaceful qualities like fantasy.
+U03,B026,2,Infrastructure history was too grounded for my tastes.
+U04,B036,2,Coastal mystery not relevant to my self-help reading goals.
+U04,B009,2,Fantasy quest not aligned with my productivity reading.
+U10,B019,2,Finance decision book too dry for my fantasy reading mood.
+U10,B040,3,Morning rituals had meditative quality reminiscent of fantasy.
+U01,B011,2,Self-help productivity guide not what I look for in a book.
+U02,B024,2,Fantasy guild world nice but lacked sci-fi grounding.
+U05,B016,2,Steampunk inventions too mechanical for my literary taste.
+U06,B033,2,Mystery thriller not really in my science reading domain.
+U07,B036,2,Coastal mystery outside my business and finance reading focus.
+U08,B016,2,Steampunk inventions interesting but preferred historical mysteries.
+U09,B011,2,Self-help productivity not matching my sci-fi interests.
+U11,B016,2,Steampunk machinery too industrial for my cozy reading preference.
+U12,B040,2,Wellness morning routines far from mystery and detective reading.
+U13,B036,2,Coastal mystery outside my productivity and business domain.
+U14,B040,2,Wellness habits interesting but far from my history interests.
+U14,B022,4,Burmese monastery mystery with clever historical puzzle.
+U14,B012,4,Deep ocean exploration was richly detailed.
+U14,B033,3,Train mystery decent though less historical depth.
+U14,B001,4,Feudal Japan detective story had wonderful period detail.
+U14,B021,4,Joseon royal inspector mystery was atmospheric.
+U14,B037,4,Historical mystery archive investigation was well-plotted.
+U14,B006,2,Sci-fi AI concept interesting but far from my history focus.

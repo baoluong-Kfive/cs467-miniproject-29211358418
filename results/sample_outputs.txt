@@ -1,0 +1,73 @@
+========================================================================
+CS467 MINI-PROJECT (MP-A02): BOOK SUMMARY AND READER-TASTE RECOMMENDER
+========================================================================
+Dataset Summary: 42 books | 14 readers | 204 ratings | Matrix Sparsity: 65.31%
+
+--- OFFLINE EVALUATION RESULTS (Holdout: 2 liked items per user) ---
+                    Model  Precision@5  Recall@5  HitRate@5   RMSE    MAE
+      Popularity Baseline       0.0000    0.0000     0.0000    NaN    NaN
+        NLP Content-Based       0.3429    0.8571     1.0000    NaN    NaN
+   User-Based CF (Cosine)       0.0286    0.0714     0.1429 1.3512 1.0502
+  User-Based CF (Pearson)       0.0571    0.1429     0.2857 1.1091 0.9091
+Hybrid (NLP + Pearson CF)       0.1857    0.4643     0.7143    NaN    NaN
+
+========================================================================
+TEST CASE 1: EXISTING READER RECOMMENDATIONS (User ID: U01, 7 rated books)
+========================================================================
+Rated History for U01:
+  - [B001] The Inspector of Kyoto (Historical Mystery) -> Rating: 5
+  - [B002] Shadows Over Shanghai 1932 (Historical Mystery) -> Rating: 5
+  - [B004] Murder at the Forbidden Pavilion (Historical Mystery) -> Rating: 4
+  - [B021] Whispers in the Bamboo Grove (Historical Mystery) -> Rating: 5
+  - [B037] Chronicle of the Amber Seal (Historical Mystery) -> Rating: 4
+  - [B006] Silent Algorithms (Science Fiction) -> Rating: 2
+  - [B014] The Midnight Tea House (Literary Fiction) -> Rating: 4
+  - [B003] The Silk Road Cipher (Historical Mystery) -> Rating: 5
+  - [B005] The Monsoon Detective (Historical Mystery) -> Rating: 4
+  - [B022] The Jade Pagoda Riddle (Historical Mystery) -> Rating: 4
+  - [B033] Winter on the Northern Line (Mystery Thriller) -> Rating: 3
+  - [B036] The Forgotten Lighthouse Keeper (Mystery) -> Rating: 3
+  - [B009] Oath of the Ashwood Crown (Fantasy) -> Rating: 2
+  - [B015] Letters from the Southern Coast (Literary Fiction) -> Rating: 3
+  - [B011] Deep Work in Noisy Rooms (Self-Help) -> Rating: 2
+
+[1A] NLP Content-Based Reader Profile Top-5:
+  1. [B032] Voices from the Silk Looms by Ananya Sharma (History) | Score: 0.0518 | Keywords: asia, history, silk
+  2. [B017] Echoes of the Red Dunes by Amara Okafor (Science Fiction) | Score: 0.0369 | Keywords: mystery, fiction
+  3. [B042] A Quiet Garden on the Hill by Elena Moreau (Literary Fiction) | Score: 0.0301 | Keywords: literary, literary fiction, gentle, cozy
+  4. [B034] The Sunlit Greenhouse by Chloe Dubois (Literary Fiction) | Score: 0.0293 | Keywords: literary, literary fiction, cozy, gentle
+  5. [B041] The Cozy Bookshop on Elm Street by Priya Sharma (Contemporary Fiction) | Score: 0.0271 | Keywords: cozy, gentle, life, everyday life
+
+[1B] User-Based Collaborative Filtering (Pearson) Top-5:
+  1. [B034] The Sunlit Greenhouse by Chloe Dubois (Literary Fiction) | Score: 5.0000 | Keywords: literary, literary fiction, cozy, gentle
+  2. [B035] Quantum Horizons by Arjun Patel (Science & Tech) | Score: 4.7203 | Keywords: quantum, tech, science tech, science quantum
+  3. [B039] Strategic Patience by Owen Gallagher (Business & Finance) | Score: 4.5900 | Keywords: patience, markets, finance, patience markets
+  4. [B017] Echoes of the Red Dunes by Amara Okafor (Science Fiction) | Score: 4.4300 | Keywords: mystery, fiction
+  5. [B029] The Last Observatory by Fatima Al-Zahra (Science Fiction) | Score: 4.4300 | Keywords: high, fiction
+
+[1C] Hybrid (NLP + Collaborative Filtering) Top-5:
+  1. [B034] The Sunlit Greenhouse by Chloe Dubois (Literary Fiction) | Score: 0.4661 | Keywords: literary, literary fiction, cozy, gentle
+  2. [B035] Quantum Horizons by Arjun Patel (Science & Tech) | Score: 0.4185 | Keywords: quantum, tech, science tech, science quantum
+  3. [B032] Voices from the Silk Looms by Ananya Sharma (History) | Score: 0.4072 | Keywords: asia, history, silk
+  4. [B017] Echoes of the Red Dunes by Amara Okafor (Science Fiction) | Score: 0.4062 | Keywords: mystery, fiction
+  5. [B039] Strategic Patience by Owen Gallagher (Business & Finance) | Score: 0.4039 | Keywords: patience, markets, finance, patience markets
+
+========================================================================
+TEST CASE 2: FREE-TEXT SEARCH QUERY
+Query: 'historical mystery set in Asia with detective'
+========================================================================
+  1. [B005] The Monsoon Detective by Arjun Nair (Historical Mystery) | Score: 0.4840 | Keywords: detective, historical, historical mystery, mystery
+  2. [B037] Chronicle of the Amber Seal by Min-Seo Kang (Historical Mystery) | Score: 0.4550 | Keywords: historical, historical mystery, detective, mystery
+  3. [B022] The Jade Pagoda Riddle by Linnea Bergstrom (Historical Mystery) | Score: 0.4453 | Keywords: historical, historical mystery, detective, mystery
+  4. [B002] Shadows Over Shanghai 1932 by Mei-Ling Zhou (Historical Mystery) | Score: 0.4368 | Keywords: historical, historical mystery, detective, mystery
+  5. [B004] Murder at the Forbidden Pavilion by Wei-Ming Chen (Historical Mystery) | Score: 0.4196 | Keywords: historical, historical mystery, detective, mystery
+
+========================================================================
+TEST CASE 3: COLD-START NEW READER (1-Sentence Preference)
+Input: 'I enjoy cozy stories about warm neighborhood cafes, nature, and gentle everyday life.'
+========================================================================
+  1. [B041] The Cozy Bookshop on Elm Street by Priya Sharma (Contemporary Fiction) | Score: 0.4138 | Keywords: everyday life, life, neighborhood, cozy
+  2. [B042] A Quiet Garden on the Hill by Elena Moreau (Literary Fiction) | Score: 0.3959 | Keywords: nature gentle, nature, neighborhood, gentle
+  3. [B014] The Midnight Tea House by Haruka Sato (Literary Fiction) | Score: 0.3411 | Keywords: cozy warm, warm, gentle, cozy
+  4. [B034] The Sunlit Greenhouse by Chloe Dubois (Literary Fiction) | Score: 0.2486 | Keywords: gentle everyday, neighborhood, everyday, cozy
+  5. [B027] The Autumn Orchard by Camille Laurent (Literary Fiction) | Score: 0.0589 | Keywords: nature
